@@ -1,7 +1,7 @@
 function search () {
       let filter =document.getElementById('find').value.toUpperCase();
 
-      let item = document.querySelectorAll('services');
+      let item = document.querySelectorAll('.services');
 
       let l =document.getElementsByTagName('h2');
 
