@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+
+}
+
+body{
+    background: #ddd;
+    
+}
+.container-fluid{
+    width:100%;
+    height:auto;
+    padding: 0px 0px 80px 0px;
+}
+.container{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+
+}
+.container .search{
+    display:flex;
+    padding: 30px 0px;
+    justify-content: space-between;
+
+}
+.container .search h1{
+    letter-spacing:3px;
+    display: inline-block;
+    border-bottom: 2px solid red;
+    padding-bottom: 10px;
+
+} 
+.container .search input{
+    width: 40%;
+    padding: 5px 16px;
+    background: transparent;
+    border: 1px solid #000;
+    font-size: 20px;
+    text-transform: capitalize;
+    letter-spacing: 3PX;
+    outline: none;
+
+}
+.container .search input::placeholder{
+    color: red;
+    font-weight: 500;
+
+}
+
+.services{
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 2rem 0;
+
+
+
+}
+.services h1 {
+    background-color: #050505;
+    
+    background-size: 100%;
+    -webkit-background-clip:text;
+    -moz-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    -moz-text-fill-color:transparent;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    
+}
+.services__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr;
+}
+
+.services__card { 
+    margin: 10px;
+    height: 455px;
+    width: 300px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #050505;
+    background: #fff;
+    transition: 0.3s ease-in;
+}
+.services__card:nth-child(2) {
+    background: #fff;  
+
+}
+.services__card:nth-child(3) {
+    background: #fff; 
+
+
+}
+.services__card h2 {
+    text-align: center;
+
+}
+.services__card p{
+    text-align:center;
+    margin-top: 24px;
+    font-size:20px;
+
+
+
+}
+.services__btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+
+
+}
+.services__card button{
+    color: #fff;
+    padding: 14px 24px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #131313;
+    font-size: 1rem;
+    margin-bottom: 40px;
+    
+
+
+
+
+
+}
+.services__card button:hover {
+    cursor:pointer;
+
+}
+.services__card:hover{
+    transform: scale(1.075);
+    transition: 0.3 ease-in;
+    cursor: pointer;
+}
+
+.images{
+    width: 70%;
+    margin: auto;
+    
+}
